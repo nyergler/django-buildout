@@ -52,7 +52,7 @@ file.  For details on package discovery, see the
 
 = Index Contents =
 
- * Django
+ * [http://code.djangoproject.com/svn/django/tags/releases/0.95/#egg=Django-0.95 Django 0.95]
  * [http://django-buildout.googlecode.com/files/django_buildout-0.2-py2.4.egg django_buildout]
  * yahoo-ui
  * fckeditor
