@@ -14,11 +14,10 @@ project.
 
 = Getting Started =
 
-To start a project, download 
-[http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py?rev=69908 
-bootstrap.py] 
-and save it to your project directory.  `bootstrap.py` is a Python script which 
-downloads zc.buildout itself, along with setuptools if necessary, and creates a 
+To start a project, download
+[http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py?rev=69908
+bootstrap.py] and save it to your project directory.  `bootstrap.py` is a Python script
+which downloads zc.buildout itself, along with setuptools if necessary, and creates a 
 wrapper script for the `buildout` command.
 
 == Bootstrapping zc.buildout ==
