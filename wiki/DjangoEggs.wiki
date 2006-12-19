@@ -15,7 +15,8 @@ for an index of Django-related eggs.
 == setuptools and easy_install ==
 
 To use this index page with [http://peak.telecommunity.com/DevCenter/EasyInstall
-easy_install] specify the URL with the `-f` parameter.  For example:{{{
+easy_install] specify the URL with the `-f` parameter.  For example: 
+{{{
 
   $ easy_install -f http://code.google.com/p/django-buildout/w/DjangoEggs yahoo-ui
 
@@ -24,7 +25,8 @@ easy_install] specify the URL with the `-f` parameter.  For example:{{{
 == zc.buildout ==
 
 To enable zc.buildout to find packages using this index, specify the URL as `find-links`
-parameter.  For example, in `buildout.cfg`: {{{
+parameter.  For example, in `buildout.cfg`: 
+{{{
 
 [buildout]
 find-links = http://code.google.com/p/django-buildout/w/DjangoEggs
