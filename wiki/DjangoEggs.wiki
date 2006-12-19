@@ -1,0 +1,25 @@
+#summary An egg-index for Django-related eggs.
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+[http://peak.telecommunity.com/DevCenter/setuptools setuptools] searches the
+[http://cheeseshop.python.org/pypi Python Package Index] for eggs when attempting to
+resolve packages.  It can also be pointed at an "index" page with specially formed links
+to enable resolution of packages not present in PyPI.  This page serves as a stable URL
+for an index of Django-related eggs.
+
+= Using the Index =
+
+== setuptools ==
+
+== zc.buildout ==
+
+= Adding to the Index =
+
+= Index Contents =
+
+ * Django
+ * yahoo-ui
+ * fckeditor
+ * fckeditor-connector
