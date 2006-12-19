@@ -1,6 +1,7 @@
 setup.py
 src/django_buildout/__init__.py
 src/django_buildout/deploy.py
+src/django_buildout/support.py
 src/django_buildout.egg-info/PKG-INFO
 src/django_buildout.egg-info/SOURCES.txt
 src/django_buildout.egg-info/dependency_links.txt
