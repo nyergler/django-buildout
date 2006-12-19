@@ -49,7 +49,7 @@ http://example.com/eggs/FooBar.tgz#egg=FooBar-1.0
 Note that the version is optional; the link may be to a tarball, an egg, or executable
 file.  For details on package discovery, see the
 [http://peak.telecommunity.com/DevCenter/setuptools#making-your-package-available-for-easyinstall
- setuptools package discovery] documentation.
+setuptools package discovery] documentation.
 
 = Index Contents =
 
