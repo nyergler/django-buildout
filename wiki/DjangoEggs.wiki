@@ -35,7 +35,21 @@ find-links = http://code.google.com/p/django-buildout/w/DjangoEggs
 ...
 }}}
 
+See ProjectLifecycle for details on using zc.buildout with Django applications.
+
 = Adding to the Index =
+
+To add a package to the index, add it to the list below.  Your link should conform to
+setuptools expectation of a "primary link".  For example, to specify that a link is to the
+egg FooBar 1.0, the link would be formed as:
+{{{
+http://example.com/eggs/FooBar.tgz#egg=FooBar-1.0
+}}}
+
+Note that the version is optional; the link may be to a tarball, an egg, or executable
+file.  For details on package discovery, see the
+[http://peak.telecommunity.com/DevCenter/setuptools#making-your-package-available-for-easyinstall
+ setuptools package discovery] documentation.
 
 = Index Contents =
 
