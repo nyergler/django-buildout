@@ -4,7 +4,8 @@
 = Introduction =
 
 This page describes the life cycle of a Django project managed using zc.buildout.  
-The files used for this document are available in the template module in Subversion.
+The files used for this document are available in the
+[http://django-buildout.googlecode.com/svn/trunk/template/ template module] in Subversion.
 
 * This is preliminary documentation. *  I'm just starting to use this in practice so we
 will undoubtedly discover that some initial assumptions don't hold or are just plain
@@ -14,7 +15,8 @@ project.
 = Getting Started =
 
 To start a project, download 
-[http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py?rev=69908  bootstrap.py] 
+[http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py?rev=69908 
+bootstrap.py] 
 and save it to your project directory.  `bootstrap.py` is a Python script which 
 downloads zc.buildout itself, along with setuptools if necessary, and creates a 
 wrapper script for the `buildout` command.
@@ -47,7 +49,8 @@ Our `buildout.cfg` will look something like this:
 
 [buildout]
 bin-directory = ./bin
-find-links = http://code.google.com/p/django-buildout/downloads/list http://code.google.com/p/django-buildout/wiki/DjangoEggs
+find-links = http://code.google.com/p/django-buildout/downloads/list
+http://code.google.com/p/django-buildout/wiki/DjangoEggs
 
 parts = django
 
@@ -84,7 +87,8 @@ has your preferred Python interpreter set, as well as code to add any Python egg
 necessary to the PYTHONPATH before calling the actual Django code.
 
 *More Information:*
-  * [http://cheeseshop.python.org/pypi/zc.buildout#configuration-file-syntax buildout.cfg syntax]
+  * [http://cheeseshop.python.org/pypi/zc.buildout#configuration-file-syntax buildout.cfg
+syntax]
 
 = Starting the Django Project =
 
@@ -164,7 +168,8 @@ You can declare dependencies by adding them to the list of requirements in
 `install_requires` parameter.  Dependencies needed to test your application can
 be specified in the `test_requires` parameter.  For details on the `setup()` 
 parameters and how to format package declarations, see the 
-[http://peak.telecommunity.com/DevCenter/setuptools#declaring-dependencies setuptools documentation].
+[http://peak.telecommunity.com/DevCenter/setuptools#declaring-dependencies setuptools
+documentation].
 
 *XXX* needs example
 
