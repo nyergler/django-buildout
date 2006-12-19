@@ -4,16 +4,34 @@
 = Introduction =
 
 [http://peak.telecommunity.com/DevCenter/setuptools setuptools] searches the
-[http://cheeseshop.python.org/pypi Python Package Index] for eggs when attempting to
+[http://cheeseshop.python.org/pypi Python Package Index] for
+[http://peak.telecommunity.com/DevCenter/PythonEggs eggs] when attempting to
 resolve packages.  It can also be pointed at an "index" page with specially formed links
 to enable resolution of packages not present in PyPI.  This page serves as a stable URL
 for an index of Django-related eggs.
 
 = Using the Index =
 
-== setuptools ==
+== setuptools and easy_install ==
+
+To use this index page with [http://peak.telecommunity.com/DevCenter/EasyInstall
+easy_install] specify the URL with the `-f` parameter.  For example:{{{
+
+  $ easy_install -f http://code.google.com/p/django-buildout/w/DjangoEggs yahoo-ui
+
+}}}
 
 == zc.buildout ==
+
+To enable zc.buildout to find packages using this index, specify the URL as `find-links`
+parameter.  For example, in `buildout.cfg`: {{{
+
+[buildout]
+find-links = http://code.google.com/p/django-buildout/w/DjangoEggs
+
+[part_n]
+...
+}}}
 
 = Adding to the Index =
 
