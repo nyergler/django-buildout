@@ -53,6 +53,7 @@ file.  For details on package discovery, see the
 = Index Contents =
 
  * Django
+ * [http://django-buildout.googlecode.com/files/django_buildout-0.2-py2.4.egg django_buildout]
  * yahoo-ui
  * fckeditor
  * fckeditor-connector
