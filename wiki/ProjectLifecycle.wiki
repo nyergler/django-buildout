@@ -1,13 +1,12 @@
-#summary One-sentence summary of this page.
+#summary Managing a Django project with zc.buildout
+#labels Featured,Phase-Implementation
 
 = Introduction =
 
-Add your content here.
+= Starting A Project =
 
+= Declaring Dependencies =
 
-= Details =
+= Testing and Development =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Deployment =
