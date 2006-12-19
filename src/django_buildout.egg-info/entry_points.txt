@@ -1,3 +1,7 @@
 [zc.buildout]
 deploy = django_buildout.deploy:DjangoDeploy
 
+[console_scripts]
+manage = django_buildout.scripts:projectManage
+django-admin = django_buildout.scripts:djangoAdmin
+

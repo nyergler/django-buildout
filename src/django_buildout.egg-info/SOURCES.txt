@@ -1,6 +1,7 @@
 setup.py
 src/django_buildout/__init__.py
 src/django_buildout/deploy.py
+src/django_buildout/scripts.py
 src/django_buildout/support.py
 src/django_buildout.egg-info/PKG-INFO
 src/django_buildout.egg-info/SOURCES.txt
@@ -9,3 +10,6 @@ src/django_buildout.egg-info/entry_points.txt
 src/django_buildout.egg-info/requires.txt
 src/django_buildout.egg-info/top_level.txt
 src/django_buildout.egg-info/zip-safe
+template/bootstrap.py
+template/buildout.cfg
+template/setup.py
