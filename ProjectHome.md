@@ -1,0 +1,1 @@
+zc.buildout is a system for managing buildouts, the collection of configuration and application-specific software that allows an instance of the application to be created.  zc.buildout is useful for deploying and managing applications in a self-contained, manageable way.  This project provides tools and documentation for using zc.buildout for Django projects.
